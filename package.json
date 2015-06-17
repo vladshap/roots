@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/vladshap/vladshap.com.git"
+    "url": "git://github.com/vladshap/roots"
   },
-  "description": "Personal site running on a custom built libsass framework",
+  "description": "Personal starter template. Work in progress.",
   "main": "Gruntfile.js",
   "dependencies": {
     "grunt": "^0.4.5",
