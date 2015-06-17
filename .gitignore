@@ -1,30 +1,14 @@
-# Created by https://www.gitignore.io
-
-### Jekyll ###
 _site/
-
-
-### grunt ###
-# Grunt usually compiles files inside this directory
 dist/
-
-# Grunt usually preprocesses files such as coffeescript, compass... inside the .tmp directory
 .tmp/
-
-
-### Bower ###
 bower_components
 .bower-cache
 .bower-registry
 .bower-tmp
-
 node_modules
-
-### Sass ###
 .sass-cache
-/assets/styles/
+styles/
 *.css.map
-
 *.iml
 .idea/
 .idea_modules/
