@@ -1,0 +1,28 @@
+{
+  "name": "vladshap.com",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vladshap/vladshap.com.git"
+  },
+  "description": "Personal site running on a custom built libsass framework",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "*",
+    "grunt-sass": "*",
+    "grunt-folder-list": "*",
+    "autoprefixer-core": "^5.1.8",
+    "grunt-browser-sync": "^2.1.1",
+    "grunt-postcss": "^0.3.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-jekyll": "^0.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

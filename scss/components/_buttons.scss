@@ -1,0 +1,26 @@
+.btn {
+	display: inline-block;
+	vertical-align: baseline;
+	line-height: 22px;
+	padding: 12px 25px;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	border: 1px solid transparent;
+	font-weight: 300;
+	@include transition($transition-duration);
+	&.btn-primary {
+		background-color: $color-blue;
+		&:hover {
+			background-color: darken($color-blue, 10%);
+		}
+	}
+	&.btn-primary-outline {
+		border-color: $color-blue;
+		&:hover {
+			color: $color-white;
+			background-color: $color-blue;
+			border-color: $color-blue;
+		}
+	}
+}

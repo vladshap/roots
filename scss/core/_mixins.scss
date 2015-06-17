@@ -1,0 +1,35 @@
+@mixin respond-to($size, $dir: min) {
+    @if ($size == retina) {
+        @media only screen and (min-resolution: 2dppx), (-webkit-min-device-pixel-ratio: 2.0) {
+            @content;
+        }
+    } @else if ($size and $dir) {
+        @media screen and (#{$dir}-width: ($size + px)) {
+            @content;
+        }
+    }
+}
+
+@mixin clearfix {
+	&:after {
+		clear: both;
+		content: '';
+		display: table;
+	}
+}
+
+@mixin font-size($sizeValue: 16) {
+    //font-size: $sizeValue + px;
+    font-size: ($sizeValue / $base-font-size) + rem;
+}
+
+@mixin transition($duration: $transition-duration, $property: $transition-property, $timing: $transition-timing-function, $delay: 0s) {
+    transition: $property $duration $timing $delay;
+}
+
+
+@mixin circle($size: 100px, $radius: $size / 2) {
+    width: $size;
+    height: $size;
+    border-radius: $radius;
+}

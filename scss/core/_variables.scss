@@ -1,0 +1,38 @@
+//module GRID SETUP
+
+
+//module TYPOGRAPHY
+$base-font-sans: 'Source Sans Pro', sans-serif;
+$base-font-serif: 'Cardo', serif;
+$base-font-family: $base-font-sans;
+$base-font-size: 16;
+$fw-light: 300;
+$fw-regular: 400;
+$fw-semibold: 600;
+$fw-bold: 700;
+
+//module MAIN COLORS
+$color-white: #fff;
+$color-black: #000;
+
+//module BACKGROUND COLORS
+
+//module TEXT COLORS
+$base-font-color: $color-black;
+
+//module BORDERS
+$base-border-color: #EBEBEB;
+
+//module LISTS
+
+//module PROPERTIES
+$base-border-radius: 5px;
+
+$transition-property: all;
+$transition-duration: .2s;
+$transition-timing-function: ease-in-out;
+
+//module Media Queries
+$small: 600;
+$medium: 768;
+$large: 940;
